@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #1e1e1e;
   }
 }
 
@@ -18,4 +18,50 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .background{
+  height: 450px;
+  width: 550px;
+  background-color: #fe931187;
+  margin-left: 200px;
+  margin-top: 180px;
+  filter: blur(230);
+  
+} */
+
+.background {
+  height: 450px;
+  width: 550px;
+  background-color: #fe931187;
+  margin-left: 200px;
+  margin-top: 180px;
+  filter: blur(230px);
+}
+.backgroundImage{
+  height:fit-content;
+  width: fit-content; 
+}
+.round-background{
+   height: 300px;
+   width: 300px;
+   align-items: center;
+   background-color: rgb(255, 149, 0);
+   filter:blur(200)
+}
+
+.navbar{
+  /* Frame 4 */
+
+/* position: absolute; */
+/* width: 1320px;
+height: 64px; */
+left: calc(50% - 1320px/2);
+
+
+background: #FFFFFF;
+box-shadow: 0px 1px 19.1px rgba(203, 203, 203, 0.25);
+border-radius: 16px;
+
 }
